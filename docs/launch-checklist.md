@@ -4,7 +4,7 @@
 
 - Starter: `$29/mo`, up to 100 active invoices, CSV + Stripe sync, automated reminders.
 - Growth: `$79/mo`, up to 500 active invoices, priority support, advanced reporting.
-- CTA: `Stop chasing invoices. Recover revenue on autopilot.`
+- CTA: `Stop chasing invoices. Recover revenue automatically.`
 
 ## SEO Pages
 
@@ -20,16 +20,15 @@
 
 ### Draft copy
 
-- Day 0 subject: `Welcome to Unpaid Invoice Autopilot`
+- Day 0 subject: `Welcome to PaidPilot`
 - Day 2 subject: `Get better recovery rates from your reminder templates`
 - Day 7 subject: `Your first recovery milestone this week`
 
 ## Stripe Plan Setup Notes
 
-1. Create Stripe product: `Unpaid Invoice Autopilot`.
+1. Create Stripe product: `PaidPilot`.
 2. Create monthly recurring prices for Starter and Growth.
 3. Set `STRIPE_PRICE_STARTER_MONTHLY` in `.env`.
 4. Configure webhook endpoint: `/api/stripe/webhooks`.
 5. Enable customer portal in Stripe dashboard.
 6. Validate test mode flows (checkout + portal + webhook replay).
-

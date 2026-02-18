@@ -5,7 +5,7 @@ export default function PricingPage() {
     <div className="mx-auto min-h-screen max-w-6xl px-6 py-14">
       <div className="hero-panel fade-up">
         <h1 className="text-4xl font-extrabold text-slate-900 md:text-5xl">Pricing built for solo operators</h1>
-        <p className="mt-3 text-slate-700">Stop chasing invoices. Recover revenue on autopilot.</p>
+        <p className="mt-3 text-slate-700">Stop chasing invoices. Recover revenue automatically.</p>
       </div>
 
       <div className="mt-8 grid gap-6 md:grid-cols-2">

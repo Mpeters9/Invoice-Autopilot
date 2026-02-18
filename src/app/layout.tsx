@@ -14,7 +14,7 @@ const monoFont = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Unpaid Invoice Autopilot",
+  title: "PaidPilot",
   description: "Set-and-forget invoice reminders for freelancers and small agencies.",
 };
 

@@ -39,7 +39,7 @@ export default function RegisterPage() {
       <div className="grid gap-8 md:grid-cols-[1fr_520px]">
         <section className="hero-panel fade-up hidden md:block">
           <p className="chip mb-3">Set-and-forget collections</p>
-          <h1 className="text-5xl font-extrabold leading-tight text-slate-900">Launch your invoice autopilot in minutes.</h1>
+          <h1 className="text-5xl font-extrabold leading-tight text-slate-900">Launch PaidPilot in minutes.</h1>
           <p className="mt-4 text-slate-700">
             Automate reminders, track payment-link clicks, and recover overdue revenue without manual chasing.
           </p>
@@ -47,7 +47,7 @@ export default function RegisterPage() {
 
         <form onSubmit={onSubmit} className="card fade-up fade-up-delay-1 grid gap-4">
           <h1 className="text-3xl font-bold text-slate-900">Create your account</h1>
-          <p className="text-sm text-slate-600">Set up your reminder autopilot in under 5 minutes.</p>
+          <p className="text-sm text-slate-600">Set up invoice reminders in under 5 minutes.</p>
           <label className="text-sm font-medium text-slate-800">
             Business name
             <input

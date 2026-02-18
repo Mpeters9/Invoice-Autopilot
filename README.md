@@ -1,4 +1,4 @@
-# Unpaid Invoice Autopilot
+# PaidPilot
 
 Set-and-forget invoice recovery automation for freelancers and small agencies.
 
@@ -76,7 +76,7 @@ pnpm start
 
 ## Demo Account (after seeding)
 
-- Email: `demo@autopilot.local`
+- Email: `demo@paidpilot.local`
 - Password: `demo12345`
 
 ## Architecture Notes

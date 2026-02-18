@@ -45,7 +45,7 @@ export default function LoginPage() {
           <p className="chip mb-3">Welcome back</p>
           <h1 className="text-4xl font-extrabold leading-tight text-slate-900">Resume your recovery pipeline.</h1>
           <p className="mt-4 text-slate-700">
-            Your invoice autopilot is ready. Log in to monitor overdue balances and reminder performance.
+            PaidPilot is ready. Log in to monitor overdue balances and reminder performance.
           </p>
         </section>
 

@@ -1,7 +1,11 @@
 {
-  "name": "unpaid-invoice-autopilot",
+  "name": "paidpilot",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.30.0",
+  "engines": {
+    "node": ">=20.9.0 <23"
+  },
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",

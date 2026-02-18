@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 const navItems = [
   { href: "/app/dashboard", label: "Dashboard" },
@@ -13,14 +12,12 @@ const navItems = [
 ];
 
 export function AppShell({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname();
-
   return (
     <div className="app-shell-bg min-h-screen">
       <header className="border-b border-white/50 bg-white/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
           <Link href="/app/dashboard" className="text-xl font-extrabold tracking-tight text-slate-900">
-            Unpaid Invoice Autopilot
+            PaidPilot
           </Link>
           <form action="/api/auth/logout" method="post">
             <button className="btn-secondary px-3 py-1.5 text-xs" type="submit">
@@ -36,11 +33,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`rounded-xl px-3 py-2 text-sm font-medium transition-all ${
-                  pathname.startsWith(item.href)
-                    ? "bg-slate-900 text-white shadow-sm"
-                    : "text-slate-700 hover:bg-white hover:shadow-sm"
-                }`}
+                className="rounded-xl px-3 py-2 text-sm font-medium text-slate-700 transition-all hover:bg-white hover:shadow-sm"
               >
                 {item.label}
               </Link>

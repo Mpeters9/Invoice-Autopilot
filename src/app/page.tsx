@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen">
       <main className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12 md:py-16">
         <header className="fade-up flex items-center justify-between">
-          <div className="text-2xl font-extrabold tracking-tight text-slate-900">Unpaid Invoice Autopilot</div>
+          <div className="text-2xl font-extrabold tracking-tight text-slate-900">PaidPilot</div>
           <div className="flex gap-3">
             <Link href="/login" className="btn-secondary px-4 py-2 text-sm">
               Log in
@@ -21,7 +21,7 @@ export default function Home() {
             For freelancers and small agencies
           </p>
           <h1 className="max-w-3xl text-4xl font-extrabold leading-tight text-slate-900 md:text-6xl">
-            Stop chasing late invoices. Recover revenue on autopilot.
+            Stop chasing late invoices. Recover revenue automatically.
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-slate-700">
             Import invoices, configure cadence once, and let automated friendly-to-firm follow-ups recover revenue while

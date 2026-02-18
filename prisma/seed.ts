@@ -22,7 +22,7 @@ async function main() {
   const passwordHash = await hashPassword("demo12345");
   const user = await prisma.user.create({
     data: {
-      email: "demo@autopilot.local",
+      email: "demo@paidpilot.local",
       passwordHash,
     },
   });
@@ -57,7 +57,7 @@ async function main() {
       overdue2Days: 4,
       finalDays: 10,
       signatureName: "Avery Founder",
-      replyToEmail: "demo@autopilot.local",
+      replyToEmail: "demo@paidpilot.local",
     },
   });
 
@@ -205,7 +205,7 @@ async function main() {
   }
 
   console.log("Seed complete");
-  console.log("Demo login: demo@autopilot.local / demo12345");
+  console.log("Demo login: demo@paidpilot.local / demo12345");
 }
 
 main()
